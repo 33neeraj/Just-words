@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>just words bootstrap3</title>
+
+  <!-- css -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/nivo-lightbox.css" rel="stylesheet" />
+  <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+  <link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
+  <link href="css/owl.theme.css" rel="stylesheet" media="screen" />
+  <link href="css/flexslider.css" rel="stylesheet" />
+  <link href="css/animate.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="color/default.css" rel="stylesheet">
+  <!-- =======================================================
+    Theme Name: just words
+  ======================================================= -->
+  
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+
+   <!-- Navigation -->
+   <div id="navigation">
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+              <div class="logo">
+                  <a href="index.html" class="brand"><img src="img/logo.jpg"></a>
+                </div>
+          </div>
+          <div class="col-md-10">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu"><i
+                  class="fa fa-bars"></i></button>
+            </div>
+            <!-- Nav bar-->
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#intro">Home</a></li>
+                <li><a href="#about">Register</a></li>
+                <li><a href="#service">Books</a></li>
+                <li><a href="#works">Poetry</a></li>
+                <li><a href="#contact">Events nearby</a></li>
+              </ul>
+            </div>
+            <!-- /.Navbar-collapse -->
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </nav>
+  </div>
+  <!-- /Navigation -->
+  <section id="intro" class="container" >
+    <!--  logo section -->
+    <div class="col-md-12">
+      <div class="item active col-md-12">
+        <img src="img/slide1.jpg" alt="First slide">
+        <!-- Static Header -->
+        <div class="header-text hidden-xs">
+          <div class="col-md-12 text-center">
+            <h2><span>Welcome to our website</span></h2>
+            <br>
+            <h3><span>welcome to the world where imagination meets writing and becomes your reality.</span></h3>
+            <br>
+        </div>
+      </div>
+      <!-- /header-text -->
+    </div>
+    <!-- /logo section -->
+  </section>
+
+  <!-- Section: Register -->
+  <section id="about" class="home-section color-dark bg-white">
+    <div class="container marginbot-50">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+            <div class="section-heading text-center">
+              <h2 class="h-bold">Join us</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="row">
+        <!--Sign up-->
+        <div class="col-md-6">
+          <div class="form-style">
+            <form id="wrapper" action="#" method="post" role="form">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                  data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                  data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" name="Username" class="form-control" id="name" placeholder="Username"
+                  data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <p>Interests:</p>
+                <label for="choice-1">Poetry</label>
+                <input id="checkbox" class="form-group" type="checkbox" name="checkbox">
+                <label for="choice-2">Lyrics writing</label>
+                <input id="checkbox" class="form-group" type="checkbox" name="checkbox">
+                <label for="choice-3">Book reading</label>
+                <input id="checkbox" class="form-group" type="checkbox" name="checkbox">
+              </div>
+
+              <div class="form-group">
+
+                <input type="text" class="form-control" name="ph" placeholder="Phone Number" required
+                  pattern="[0-9]{10}" title="Enter a 10 digit valid phone no.">
+              </div>
+
+              <div class="form-group">
+
+                <input type="password" class="form-control" name="pass" pattern=".{5,}" required
+                  title="password length should be greater than 5 characters" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <input type="password" name="confirm password" class="form-control" id="pass"
+                  placeholder="confirm password">
+              </div>
+
+              <div class="textbox">
+                <label for="check">I agree to all the terms and conditions</label>
+                <input type="checkbox" name="check" id="check" required>
+              </div>
+
+              <div class="text-center"><button class="btn btn-skin btn-lg btn-block">submit</button></div>
+            </form>
+            <div>
+              <p class="para">Already have an account?<button class="btn btn-default"
+                  onclick="myFunction(2);">Login</button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--Log in-->
+        <div class="col-md-6">
+          <div class="form-style">
+            <form id="logIn" action="" method="post" role="form">
+              <div class="form-group">
+                <input type="text" name="Username" class="form-control" id="name" placeholder="Username">
+              </div>
+              <div class="form-group">
+                <input type="password" name="password" class="form-control" id="pass" placeholder="your password">
+              </div>
+              <div class="text-center"><button type="submit" class="btn btn-skin btn-lg btn-block">log in</button>
+                <p>Forgot your password?<a href="#">click here!</a>
+                </p>
+              </div>
+            </form>
+            <div>
+              <p class="para">New User?<button class="btn btn-default" onclick="myFunction(1);">Sign up</button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---</div>------->
+  </section>
+  <!-- /Section: register -->
+
+  <!-- Section: Books -->
+  <section id="service" class="home-section color-dark bg-gray">
+    <div class="container marginbot-50">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+            <div class="section-heading text-center">
+              <h2 class="h-bold">Books</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-right">
+        <form action="#" method="get" role="form">
+          <label for="search"></label>
+          <input type="text" class="form-control" name="search" placeholder="Search here">
+          <button type="submit" class="btn btn-default btn-lg">search</button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="text-center">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="book-box">
+                <div class="book1-img">
+                  <img src="#">
+                </div>
+                <div class="service-desc">
+                  <h5>Book1</h5>
+                  <p>
+                    Description
+                  </p>
+                  <a href="#" class="btn btn-skin">download</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="wow fadeInUp" data-wow-delay="0.2s">
+              <div class="book-box">
+                <div class="book1-img">
+                  <img src="#">
+                </div>
+                <div class="book-desc">
+                  <h5>Book2</h5>
+                  <p> Description
+                  </p>
+                  <a href="#" class="btn btn-skin">Learn more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="wow fadeInDown" data-wow-delay="0.2s">
+              <div class="book-box">
+                <div class="book1-img">
+
+                  <img src="#">
+                </div>
+                <div class="book-desc">
+                  <h5>Book3</h5>
+                  <p> Descrption
+                  </p>
+                  <a href="#" class="btn btn-skin">Download</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="wow fadeInRight" data-wow-delay="0.2s">
+              <div class="book-box">
+                <div class="book1-img">
+                  <img src="#">
+                </div>
+                <div class="book-desc">
+                  <h5>Book4</h5>
+                  <p>
+                    Description+
+                  </p>
+                  <a href="#" class="btn btn-skin">Download</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Section: Books -->
+
+  <!-- Section: Poetry -->
+  <section id="works" class="home-section color-dark text-center bg-white">
+    <div class="container marginbot-50">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+            <div class="section-heading text-center">
+              <h2 class="h-bold">Poetry</h2>
+              <div class="divider-header"></div>
+              <p>most liked poetries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="wow bounceInUp" data-wow-delay="0.4s">
+            <div id="owl-works" class="owl-carousel">
+              <div class="item">poetry
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem corporis, recusandae deleniti
+                  mollitia consectetur eius nulla repellat.
+                  Cupiditate iste, illo labore nam ex quaerat ipsum fuga rerum
+                  ea perspiciatis quasi!
+                </p>
+              </div>
+
+              <div class="item">poetry
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem corporis, recusandae deleniti
+                  mollitia consectetur eius nulla repellat.
+                  Cupiditate iste, illo labore nam ex quaerat ipsum fuga rerum
+                  ea perspiciatis quasi!</p>
+              </div>
+              <div class="item">poetry
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem corporis, recusandae deleniti
+                  mollitia consectetur eius nulla repellat.
+                  Cupiditate iste, illo labore nam ex quaerat ipsum fuga rerum
+                  ea perspiciatis quasi!</p>
+              </div>
+              <div class="item">poetry
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem corporis, recusandae deleniti
+                  mollitia consectetur eius nulla repellat.
+                  Cupiditate iste, illo labore nam ex quaerat ipsum fuga rerum
+                  ea perspiciatis quasi!</p>
+              </div>
+              <div class="item">poetry
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem corporis, recusandae deleniti
+                  mollitia consectetur eius nulla repellat.
+                  Cupiditate iste, illo labore nam ex quaerat ipsum fuga rerum
+                  ea perspiciatis quasi!</p>
+              </div>
+              <div class="item">poetry</div>
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </section>
+  <!-- /Section: Poetry -->
+
+  <!-- Section: contact -->
+  <section id="contact" class="home-section nopadd-bot color-dark bg-gray text-center">
+    <div class="container marginbot-50">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+            <div class="section-heading text-center">
+              <h2 class="h-bold">Events nearby</h2>
+              <div class="divider-header"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+      events nearby
+      <div class="row">
+        <div class="col-md-4">col1</div>
+        <div class="col-md-4">col2</div>
+        <div class="col-md-4">col3</div>
+      </div>
+    </div>
+  </section>
+  <!-- /Section: contact -->
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+
+          <div class="text-center">
+            <a href="#intro" class="totop"><i class="fa fa-angle-up fa-3x"></i></a>
+            <p>&copy; All Rights Reserved</p>
+            <div class="credits">
+              Designed by <a href="#">Anonymous</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core JavaScript Files -->
+  <!------If user clicks anywhere else-->
+  <!-- <script>
+  var su=document.getElementById('wrapper');
+  window.onclick=function(event){
+   if(function(event.target===su)
+   {
+     su.style.display="none";
+   }
+  }
+  </script> -->
+  //
+  <!--- onclick="document.getElementById('wrapper').style.display='block'"
+  //     onclick="document.getElementById('logIn').style.display='none'" -->
+  <script>
+    function myFunction(a) {
+
+      {
+        if (a == 1)
+          document.getElementById("wrapper").style.display = "block";
+        else
+          document.getElementById("wrapper").style.display = "none";
+
+      }
+
+      {
+        if (a == 2)
+          document.getElementById("logIn").style.display = "block";
+        else
+          document.getElementById("logIn").style.display = "none";
+
+      }
+    }
+  </script>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.flexslider-min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery.appear.js"></script>
+  <script src="js/stellar.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/nivo-lightbox.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
